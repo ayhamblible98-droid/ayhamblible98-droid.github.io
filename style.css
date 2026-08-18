@@ -1,14 +1,19 @@
 body {
   margin: 0;
-  background-color: #af04af;
+  background-color: #ffffff;
   color: #af2d2d;
   font-family: sans-serif;
 }
 
-.hero {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  z-index: 100;
+  color: #e62828;
 }
