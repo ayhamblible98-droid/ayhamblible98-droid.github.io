@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  background-color: #1a1a1a;
-  color: #ffffff;
+  background-color: #0cf3a6;
+  color: #af2d2d;
   font-family: sans-serif;
 }
 
 .hero {
-        height: 10;
-        display: flex;
+        height: 100vh;
+        display: flow-root;
         flex-direction: column;
         justify-content: center;
         align-items: center;
