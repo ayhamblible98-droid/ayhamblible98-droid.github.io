@@ -5,6 +5,7 @@ body {
   font-family: sans-serif;
 }
 
+/* Fixed Navigation Header */
 .navbar {
   position: fixed;
   top: 0;
@@ -16,4 +17,51 @@ body {
   padding: 1.5rem 2rem;
   z-index: 100;
   color: #e62828;
+}
+
+.nav-center a {
+  color: #e62828;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* Hero Section (Dark Theme) */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background-color: #181818;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+.hero-title {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: #e62828;
+  font-size: 11vw;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 0.85;
+  margin: 0;
+}
+
+/* Light Content Section */
+.content-section.light-theme {
+  background-color: #ffffff;
+  color: #111111;
+  padding: 6rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two equal side-by-side columns */
+  gap: 3rem;
+  align-items: center;
+}
+
+/* Grayscale Image Filter */
+.grayscale-img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 4px;
 }
