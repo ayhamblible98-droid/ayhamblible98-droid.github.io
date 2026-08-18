@@ -7,7 +7,7 @@ body {
 
 .hero {
         height: 100vh;
-        display: flow-root;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
